@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
           <h4>Find Us</h4>
           <div>
             <div>
-              <b>Email:</b>
+              <b>Email: </b>
               <a href='mailto: info@musketeers.ca'>info@musketeers.ca</a>
             </div>
             <div>

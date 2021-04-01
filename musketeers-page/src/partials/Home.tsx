@@ -1,5 +1,5 @@
 import main from '../images/main.png'
-import entry from '../images/entry.png'
+import entry from '../images/entry-higher.png'
 
 const Home: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         </div>
         <br/>
         <h1>Announcements</h1>
-        <h3>UDPATE: We will be entering Spring Break. We will return on March 22nd</h3>
+        <h3>UPDATE: We will be entering Spring Break. We will return on March 22nd</h3>
         <ul>
           <li>We are open for sessions. There are changes from our usual time and room location.</li>
           <li>Time: Mondays = 5:30-7:30PM; Saturdays = N/A (currently we are not holding Saturday sessions due to the pandemic)</li>
