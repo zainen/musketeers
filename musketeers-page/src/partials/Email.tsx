@@ -7,9 +7,13 @@ const Email: React.FC = () => {
     email: '',
     body: ''
   })
-  const handleChange = (a: input, b: input) => {
-    setSignUp(prevState => ({...prevState, [b]: a}))
-    return
+  const handleChange = (event: any) => {
+    event.preventDefault()
+    const target: any = event.target
+    const name: string = target.name
+    const email: string = target.email
+    const body: string = target.body
+    return setSignUp(prevState => ({...prevState, name, email, body}))
   }
   const send = () => {
     return sendMail({
@@ -31,23 +35,20 @@ const Email: React.FC = () => {
       type="text" 
       name="name" 
       value={signUp.name? signUp.name : '' } 
-      onChange={(e: React.ChangeEvent<HTMLInputElement>): void => handleChange(e.target.value, 'name')}
+      onChange={(e: React.ChangeEvent<HTMLInputElement>): void => handleChange(e.target.value)}
       />
       <label htmlFor="Email">Please Enter your Email:</label>
       <input 
       type="text"
       name="email" 
       value={signUp.email? signUp.email : '' } 
-      onChange={(e: React.ChangeEvent<HTMLInputElement>): void => handleChange(e.target.value, 'email')}
+      onChange={(e: React.ChangeEvent<HTMLInputElement>): void => handleChange(e.target.value)}
       />
       <label htmlFor="body">Body:</label>
-      <input 
-      type="text"
+      <textarea 
       name="body" 
       value={signUp.body? signUp.body : '' } 
-      onChange={(e: React.ChangeEvent<HTMLInputElement>): void => handleChange(e.target.value, 'body')}
       />
-      <button formAction='Submit' onClick={() => send()}>Submit</button>
       </form>
     </>
   )

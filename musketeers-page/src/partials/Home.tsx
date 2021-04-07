@@ -1,5 +1,6 @@
 import main from '../images/main.png'
 import entry from '../images/entry-higher.png'
+import './home.css'
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Home: React.FC = () => {
       <div>
         <img src={main} alt="Musketeers" />
       </div>
-      <div>
+      <div className='body'>
         <h3>Welcome To Burnaby's Fencing Club</h3>
         <div>
 
