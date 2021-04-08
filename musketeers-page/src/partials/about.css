@@ -2,8 +2,11 @@
   width: 90%;
   padding-left: 5%;
 }
-iframe {
+.vid {
   display: flex;
-  align-self: center;
-  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+}
+.weapon {
+  font-weight: bold;
 }
