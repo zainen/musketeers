@@ -18,6 +18,7 @@ div .column {
 .double {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .double-width {
   width: 90%;

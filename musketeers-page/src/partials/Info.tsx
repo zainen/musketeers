@@ -59,7 +59,7 @@ const Info: React.FC = () => {
           </div>
             <p className='bold head'>Why should I learn to fence</p>
           <div className='answers'>
-            <p className='answers'>To build character! To become physically fit! Work on Flexibility. To entertain and be entertained! Need we go on.</p>
+            <p className='answers'>To build character. To become physically fit. Work on Flexibility. To entertain and be entertained! Need we go on?</p>
 
               <img className='fencing' src={fencing} alt="Fencing"/>
           </div>

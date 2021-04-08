@@ -1,0 +1,9 @@
+.width {
+  width: 90%;
+  padding-left: 5%;
+}
+iframe {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}

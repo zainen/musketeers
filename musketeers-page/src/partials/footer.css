@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+  background-color: slategrey;
+  color: antiquewhite;
+}
+.double {
+  display:flex;
+  justify-content: space-evenly;
+  width: 125%
+}

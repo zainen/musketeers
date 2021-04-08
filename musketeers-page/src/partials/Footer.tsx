@@ -1,10 +1,12 @@
+import './footer.css'
+
 const Footer: React.FC = () => {
   return (
     <>
       <div>
-        <div>
-          <h4>Find Us</h4>
-          <div>
+        <div className='footer'>
+          <h3>Find Us</h3>
+          <div className='double'>
             <div>
               <b>Email: </b>
               <a href='mailto: info@musketeers.ca'>info@musketeers.ca</a>
