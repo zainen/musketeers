@@ -7,8 +7,10 @@
   align-items: center;
   justify-content: center;
   background-color: slategrey;
+  
 }
 .link {
   text-decoration: none;
+  color: antiquewhite;
   padding: 0 3rem
 }

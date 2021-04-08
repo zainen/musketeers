@@ -1,6 +1,6 @@
 import './header.css'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
-
+import { BrowserRouter as  Route, Link } from 'react-router-dom'
+<Route />
 const Header: React.FC = () => {
   return (
     <>

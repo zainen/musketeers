@@ -1,0 +1,27 @@
+.head {
+  font-size: large;
+}
+.bold {
+  font-weight: bold;
+}
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.double {
+  display: flex;
+  flex-direction: row;
+}
+.double-width {
+  width: 90%;
+}
+.fencing {
+  width: 90%;
+}
