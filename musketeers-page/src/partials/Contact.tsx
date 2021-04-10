@@ -9,8 +9,9 @@ const Contact: React.FC = () => {
       <div className='body'>
         <h3>To Contact Us</h3>
         <div className='email-link'>
-          <p>Email us at info@musketeers.ca or click:</p>
-          <a href="mailto:info@musketeers.ca?subject=Website inquery">Here!</a>
+          <p>Email us: <a href="mailto:info@musketeers.ca?subject=Website inquery">Click Here!</a><br/>
+          If that doesnt work! <br/> Copy and paste <b>info@musketeers.ca</b> into your mail client.
+          </p>
         </div>
         <p>WE'D LOVE TO HELP AND TEACH YOU ABOUT THE SPORT! <br/>
           For more information, please email us or use the form below

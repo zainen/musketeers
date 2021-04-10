@@ -12,3 +12,14 @@
   justify-content: space-evenly;
   width: 125%
 }
+.email-column {
+  display: flex;
+  flex-direction: column;
+}
+.space-bottom {
+  padding-bottom: 1em;
+}
+.a-link {
+  text-decoration: none;
+  color: antiquewhite;
+}

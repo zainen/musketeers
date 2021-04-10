@@ -11,12 +11,12 @@ const About: React.FC = () => {
             <h1>Fencing as a Sport</h1>
             <div>
               <h3>What is Fencing?</h3>
-              <p className='answer'>Fencing is a <b>fast-paced sport</b> that simulates sword duels. Bouts are between two fencers; they are restricted to a strip that is two meters wide and fourteen meters long, and all movement is forward or back. The target area for valid hits depends on the specific weapon used.
+              <p className='answer'>Fencing is a <b>"blink-of-an-eye and you'll miss it" </b>sport that simulates sword duels. Bouts are between two fencers; they are restricted to a strip that is one-and-a-half to two meters wide and fourteen meters long, and all movement is forward or back. The target area for valid hits depends on the specific weapon used.
                 Fencing has a blend of patience, competitiveness and discipline. However, the <b>respect between fencers</b> is the primary characteristic to attain and understand.
-              <br/>
-              <br/>
-                Fencing can attributed as the following:<br/>
-                Physically, fencing is comparable to a game of squash. It involves speed, accuracy and endurance.<br/>
+              <br />
+                <br />
+                Fencing can attributed as the following:<br />
+                Physically, fencing is comparable to a game of squash. It involves speed, accuracy and endurance.<br />
                 Mentally, fencing is comparable to a game of chess. The central importance involves strategy-planning, patience and quick decisiveness.</p>
             </div>
           </div>

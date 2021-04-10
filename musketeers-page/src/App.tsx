@@ -7,15 +7,17 @@ import Footer from './partials/Footer'
 import Header from './partials/Header'
 import Home from './partials/Home'
 import Info from './partials/Info'
+import ScrollToTop from './partials/ScrollToTop'
 
 function App() {
   return (
     <div className="App">
 
       <Router>
+          <ScrollToTop />
         <Header />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/' >
             <Home />
           </Route>
           <Route path='/about-fencing'>
