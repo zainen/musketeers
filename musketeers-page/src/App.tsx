@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-import About from './partials/About'
-import Contact from './partials/Contact'
-import Footer from './partials/Footer'
-import Header from './partials/Header'
-import Home from './partials/Home'
-import Info from './partials/Info'
-import ScrollToTop from './partials/ScrollToTop'
+import About from './components/About'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Home from './components/Home'
+import Info from './components/Info'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
