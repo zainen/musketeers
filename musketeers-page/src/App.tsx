@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import Info from './components/Info'
-import ScrollToTop from './components/ScrollToTop'
+import ScrollToTop from './components/helperPartial/ScrollToTop'
 
 function App() {
   return (

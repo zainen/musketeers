@@ -1,13 +1,19 @@
 .head {
   font-size: large;
 }
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .bold {
   font-weight: bold;
 }
 .answers {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 div .column {
   display: flex;
@@ -24,5 +30,5 @@ div .column {
   width: 90%;
 }
 .fencing {
-  width: 90%;
+  width: 50%;
 }
