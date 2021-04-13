@@ -4,6 +4,10 @@ html {
   background-color: slategrey;
 }
 
+.tab {
+  border-radius: 2em;
+}
+
 #root {
   font-family: 'Roboto Slab', serif;
   background-color: slategrey;
