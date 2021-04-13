@@ -23,12 +23,27 @@ div .column {
 }
 .double {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
+  width: 100%
+}
+.double.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%
 }
 .double-width {
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  
 }
 .fencing {
   width: 50%;
+}
+.card.rev {
+  background-color: antiquewhite;
 }
