@@ -25,16 +25,19 @@
     display: inline-block
   }
   .dropbtn {
-    background-color: #4CAF50;
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
     color: antiquewhite;
-    padding: 16px;
-    font-size: 16px;
+    margin: 0.5em;
+    font-size: 1.2em;
     border: none;
     cursor: pointer;
   }
   .dropdown-nav {
     position: relative;
-    display: inline-block
+    display: inline-block;
+    
   }
   .dropdown-content {
     display: none;
@@ -58,6 +61,10 @@
   }
   
   .dropdown-nav:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: slategray;
+  }
+  img.nav-icon {
+    border-radius: 0.5em;
+    max-width: 50%;
   }
 }
