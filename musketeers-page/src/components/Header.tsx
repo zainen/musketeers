@@ -9,7 +9,16 @@ const Header: React.FC = () => {
         <Link className='link' onClick={e => e.stopPropagation} to="/contact-us">Contact Us</Link>
         <Link className='link' onClick={e => e.stopPropagation} to="/about-us">Club's Information</Link>
         <Link className='link' onClick={e => e.stopPropagation} to="/about-fencing">About Fencing</Link>
-      </div>   
+      </div>
+      <div className="dropdown-nav">
+        <button className='dropbtn'>headers</button>
+          <div className="dropdown-content">
+            <Link onClick={e => e.stopPropagation} to="/">Home</Link>
+            <Link onClick={e => e.stopPropagation} to="/contact-us">Contact Us</Link>
+            <Link onClick={e => e.stopPropagation} to="/about-us">Club's Information</Link>
+            <Link onClick={e => e.stopPropagation} to="/about-fencing">About Fencing</Link>
+          </div>
+      </div>
     </>
   )
 }
